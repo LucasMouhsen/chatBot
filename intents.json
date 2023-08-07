@@ -1,0 +1,57 @@
+{
+    "intents": [
+        {
+            "tag": "confirmar",
+            "patterns": [
+                "1",
+                "CONFIRMAR.",
+                "Confirmo con el numero 1",
+                "Quiero confirmar y elegir la opcion 1",
+                "confirmo mi turno",
+                "turno confirmado",
+                "grasia si boy",
+                "si confirmo el turno"
+            ],
+            "responses": [
+                "Has confirmado con exito.",
+                "Confirmacion recibida.",
+                "Gracias por confirmar.",
+                "Tu eleccion ha sido registrada como confirmacion."
+            ]
+        },
+        {
+            "tag": "cancelar",
+            "patterns": [
+                "2",
+                "CANCELAR.",
+                "Cancelar con el numero 2",
+                "Quiero cancelar y elegir la opcion 2",
+                "cancelar mi turno",
+                "cancelar"
+            ],
+            "responses": [
+                "Su turno sera cancelado.",
+                "Cancelacion recibida.",
+                "Gracias por cancelar.",
+                "Tu eleccion ha sido registrada como cancelacion."
+            ]
+        },
+        {
+            "tag": "numero_equivocado",
+            "patterns": [
+                "3",
+                "NUMERO EQUIVOCADO",
+                "error de numero",
+                "equivocacion",
+                "no pedi nin"
+            ],
+            "responses": [
+                "Entendido, registraremos como numero equivocado.",
+                "Recibido, tomamos nota del error de numero.",
+                "Gracias por informar que seleccionaste por equivocacion.",
+                "La opcion 4 ha sido registrada debido a un numero equivocado."
+            ]
+        }
+        
+    ]
+}
